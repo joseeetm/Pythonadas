@@ -21,3 +21,19 @@ vacio = ""
 lleno = "palabra"
 if vacio or lleno:  # Imprime el mensaje
     print("Lleno está lleno")
+
+# También se pueden definir variables haciendo comparaciones. Por ejemplo, se define una variable comparando su valor
+# entre la variable previamente definida 'vacío' y un string.
+estado = vacio or "semilleno"
+# Como vacío devuelve false, el string es el valor de dicha variable.
+print(estado)
+
+
+# <------------ OPERADOR AND ------------------>
+# Compara entre valores que estos deben de ser todos true para que la condición se dé como tal.
+# Por ejemplo, se compara entre vacio y lleno. Devuelve false ya que vacío es false
+if vacio and lleno:
+    print("este mensaje no se va a imprimir")
+else:
+    print("Condición falsa")
+
