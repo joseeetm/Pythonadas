@@ -27,3 +27,14 @@ for i in edades:
 for i in "mi_string":
     print(i)
 
+# También se puede jugar con tuplas. Se crea una tupla con una lista de puntos (x,y)
+lista_de_puntos = [(1,2), (2,3), (3,4)]
+# Se imprime cada valor de la tupla x e y por separado gracias al bucle.
+for x, y in lista_de_puntos:
+    print(f"x: {x}, y: {y}")
+
+# También se puede asignar variables key:value a un diccionario mediante el método ".items()" ya que no se podría
+# asignar dos variables pasando el diccionario entero.
+for nombre, edad in edades.items():
+    print(f"Persona llamada: {nombre}")
+    print(f"Edad: {edad}")
