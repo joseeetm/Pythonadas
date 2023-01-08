@@ -1,5 +1,5 @@
 # Los diccionarios son un tipo de sequencias utilizadas para almacenar datos en pairs key:value
-# Los diccionarios en vez de tener índices basados en la posición, como las listas y tuplas. Si no que tienen
+# Los diccionarios en vez de tener índices basados en la posición, como las listas y tuplas. Tienen
 #  'named index' o index nominativos.
 # La sintaxis de los diccionarios es {'key':value,'key':value,...}. UN DICCIONARIO NO PUEDE TENER KEYS REPETIDAS
 
